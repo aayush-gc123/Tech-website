@@ -1,0 +1,78 @@
+@media only screen and (max-width:950px) {
+    .section1{
+        flex-direction: column;
+    }
+    #sec1-text{
+    padding: 0 4rem;
+    }
+    #sec1-text2{
+        padding: 0 4rem;
+        }
+        #profile-text{
+            padding: 0 2rem;
+        }
+        #btn3{
+            position: relative;
+            left: 4rem;
+        }
+       .images{
+        flex-direction: column;
+        margin: 3rem 0;
+        
+       }
+       .ham{
+        position: absolute;
+        top: 0;
+        right:  0;
+       }
+       .section2{
+        height: 500px;
+       }
+       .box{
+        position: relative;
+        left: 40vw;
+       }
+       #box3{
+        position: relative;
+       }
+}
+@media only screen and (max-width:736px){
+   .ul-res{
+    visibility: hidden;
+    
+   }
+   button{
+    visibility: hidden;
+   }
+   .ham{
+    visibility: visible;
+    padding: 0 2rem;
+   }
+   .contain-box2{
+    height: 300px;
+    width: 300px;
+   }
+header{
+    min-width: 529px;
+
+}
+.sec4-box{
+    flex-direction: column;
+
+}
+.section4{
+    height: 300px;
+}
+.nav{
+    min-width: 529px;
+    border: 1px solid black;
+    background-color: aqua;
+}
+.box-sec4{
+    margin: auto;
+}
+.h{
+height: 500px;
+}
+
+}
